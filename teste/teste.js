@@ -129,3 +129,53 @@ for(let i = 0; i<=10; i++){
         
     console.log(i);
 }
+
+
+//20 crie uma funçao que exibe uma mensagem.
+
+function notficacao(){
+   console.log("tu e gay");
+}
+notficacao()
+
+// crie uma funçao que multiplica 2 numero
+
+function  multiplica(a,b){
+    return a *b;
+
+
+}
+console.log(multiplica(2,3));
+
+//22 crie uma funçao pye verifica se e  par ou impar.
+
+function verificar(num){
+    return  num  % 2 ===0 ? "par": "impar";
+
+
+}
+console.log(verificar(11));
+
+//23 crie uma funçao que retorne o dobro
+
+function  dobro(n){
+    return n*2;
+
+
+}
+console.log(dobro(5));
+
+
+
+//24 crie uma funçao que some elementos de um array.
+
+function somaArray(arr){
+    total=0;
+    for(let i=0; i<arr.length;i++){
+        total +=arr[i];
+    }
+       
+    return total;
+
+}
+ console.log(somaArray([2,5,6,67]));
